@@ -1,0 +1,18 @@
+using System;
+
+namespace Text_based_game
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Hello There! Do you want to play a game? If yes, then press y");
+            
+            if(Console.ReadKey().KeyChar.ToString()=="y")
+            {
+            Console.WriteLine("\nOnce upon a time, there was a man named John. He was a man with dignity and prosperity");
+            }
+            Console.ReadKey();
+        }
+    }
+}
