@@ -7,12 +7,52 @@ namespace Text_based_game
         static void Main(string[] args)
         {
             Console.WriteLine("Hello There! Do you want to play a game? If yes, then press y");
-            
+
             if(Console.ReadKey().KeyChar.ToString()=="y")
             {
-            Console.WriteLine("\nOnce upon a time, there was a man named John. He was a man with dignity and prosperity");
-            }
+            Console.WriteLine("\nJohn saw those demons that were chasing him from behind, he gathered some courage and asked them-");
+            Console.WriteLine("\nWhy do you want to kill me?");
             Console.ReadKey();
+            Console.WriteLine("\nDemons: You woke us up from our beautiful sleep, and now you shall die!");
+            Console.ReadKey();
+            Console.WriteLine("\nJohn: Please forgive me for my mistake, I will do whatever you tell me to do if you just let me go");
+            Console.ReadKey();
+            Console.WriteLine("\nDemons: Fine, we will let you go, but there is something you need to do.");
+            Console.ReadKey();
+            Console.WriteLine("\nJohn: Yes, I will do anything");
+            Console.ReadKey();
+            Console.WriteLine("\nDemons: Do you see that small village?");
+            Console.ReadKey();
+            Console.WriteLine("\nJohn: Yes.");
+            Console.ReadKey();
+            Console.WriteLine("\nDemons: Go and burn that village to ashes.");
+            Console.ReadKey();
+            Console.WriteLine("\nJohn: WH..wh..What...no no I can't do that, I can't kill all those innocent people.");
+            Console.ReadKey();
+            Console.WriteLine("\nDemons: Do that or you shall die");
+            Console.ReadKey();
+            Console.WriteLine("\nTo go and burn the village, press b or if you don't want to follow the demons' orders, press n");
+            if(Console.ReadKey().KeyChar.ToString()=="b")
+            {
+                Console.WriteLine("\nJohn: Okay, I will do as you wish");
+                Console.ReadKey();
+                Console.WriteLine("\nJohn goes towards the village, slowly and shaking like the centre of the earth while the demons smile at him from behind");     
+                Console.ReadKey();
+                Console.WriteLine("\nJohn reaches the village and he explores it but he didn't see anyone there, all there was silent and bird chirping.");
+                Console.ReadKey();     
+            }
+            else if(Console.ReadKey().KeyChar.ToString()=="n")
+            {
+                Console.WriteLine("\nNo I will not do that");
+                Console.ReadKey();
+                Console.WriteLine("\nDemons: Then you shall die!");
+                Console.ReadKey();
+                Console.WriteLine("\nJohn: no...no... no no no n-!");
+                Console.ReadKey();
+                Console.WriteLine("\nAnd you were killed by the demons while you were screaming for your life");
+                Console.ReadKey();
+            }
+            }
         }
     }
 }
