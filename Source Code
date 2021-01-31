@@ -25,7 +25,7 @@ namespace Text_based_game
             Console.ReadKey();
             Console.WriteLine("\nJohn: Yes.");
             Console.ReadKey();
-            Console.WriteLine("\nDemons: Go and burn that village to ashes.");
+            Console.WriteLine("\nDemons: Go and burn that village to ashes and all the people living their. You have 24 hours");
             Console.ReadKey();
             Console.WriteLine("\nJohn: WH..wh..What...no no I can't do that, I can't kill all those innocent people.");
             Console.ReadKey();
@@ -36,10 +36,25 @@ namespace Text_based_game
             {
                 Console.WriteLine("\nJohn: Okay, I will do as you wish");
                 Console.ReadKey();
-                Console.WriteLine("\nJohn goes towards the village, slowly and shaking like the centre of the earth while the demons smile at him from behind");     
+                Console.WriteLine("\nJohn goes towards the village in the evening, slowly and shaking like the centre of the earth while the demons smile at him from behind");     
                 Console.ReadKey();
-                Console.WriteLine("\nJohn reaches the village and he explores it but he didn't see anyone there, all there was silent and bird chirping.");
-                Console.ReadKey();     
+                Console.WriteLine("\nJohn reaches the village and he explores it and sees small houses whose rooves he could reach easily");
+                Console.ReadKey(); 
+                Console.WriteLine("\nAnd the people were all joyos as every, they looked like the happies people in the world not knowing there fate");
+                Console.ReadKey();    
+                Console.WriteLine("\nHe thinks to himself, Why am I doing this? Should I even do this? Do they even deserve it? Does my life worth more than there's? ");
+                Console.ReadKey();
+                Console.WriteLine("\nJohn waits for eveybody to go to sleep, then burn the village");
+                Console.ReadKey();
+                Console.WriteLine("\nSoon at a distance, he sees a torch of fire, he follows it and picks it up.");
+                Console.ReadKey();
+                Console.WriteLine("\nAnd then he thinks, this should be able to burn these houses! And procedes to burn the village");
+                Console.ReadKey();
+                Console.WriteLine("\nAnd then he goes near a house and then he takes his torch near it's roof and then he lights it, and it catches fi-");
+                Console.ReadKey();
+                Console.WriteLine("\nGood morning John! Wake up or you'll be late for school.");
+                Console.ReadKey();
+                Console.WriteLine("\nJohn (thinking): Thank god it was a dream");
             }
             else if(Console.ReadKey().KeyChar.ToString()=="n")
             {
